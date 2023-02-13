@@ -1,0 +1,14 @@
+LDA 2050	
+MOV B, A	
+LDA 2051	
+CMP B	
+JNC 2053		
+MOV A, B	
+STA 2060	
+HLT
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
